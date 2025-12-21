@@ -13,7 +13,7 @@
 
 </div>
 
-![Banner](https://github.com/Pinank23/Hexstrike-Dive-Integration-Guide/Banner.png?raw=true)
+![Banner](https://github.com/Pinank23/Hexstrike-Dive-Integration-Guide/raw/main/Banner.png)
 
 ## 🎪 Why Dive AI + HexStrike? (The Game Changer)
 
@@ -34,7 +34,7 @@
 - 🎯 Perfect for penetration testing workflows
 - 🛡️ Zero configuration conflicts
 
-![comparison](https://github.com/Pinank23/Hexstrike-Dive-Integration-Guide/comparison.png?raw=true)
+![comparison](https://github.com/Pinank23/Hexstrike-Dive-Integration-Guide/raw/main/comparison.png)
 
 ---
 
@@ -780,7 +780,7 @@ rm -rf ~/.hexstrike/cache/*
 | **CTF Challenge Solving** | 1-6 hours | 2-15 min | **24x faster** ⚡ |
 | **Security Report Generation** | 4-12 hours | 2-5 min | **144x faster** 🚀 |
 
-![chart](https://github.com/Pinank23/Hexstrike-Dive-Integration-Guide/chart.png?raw=true)
+![chart](https://github.com/Pinank23/Hexstrike-Dive-Integration-Guide/raw/main/chart.png)
 
 **💰 Business Impact:**
 - Pentester costs: $150-300/hour
