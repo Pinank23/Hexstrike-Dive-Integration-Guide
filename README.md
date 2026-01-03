@@ -231,15 +231,18 @@ curl http://localhost:8888/health
 
 ```json
 {
-  "name": "hexstrike-ai",
-  "transport": "stdio",
-  "enabled": true,
-  "command": "python3",
-  "args": [
-    "/home/kali/Desktop/hexstrike-ai/hexstrike_mcp.py",
-    "--server",
-    "http://localhost:8888"
-  ]
+  "mcpServers": {
+    "hexstrike-ai": {
+      "transport": "stdio",
+      "enabled": true,
+      "command": "python3",
+      "args": [
+        "/path/to/hexstrike-ai/hexstrike_mcp.py",
+        "--server",
+        "http://localhost:8888"
+      ]
+    }
+  }
 }
 ```
 
@@ -256,15 +259,18 @@ pwd
 **📝 Example Config (Your Actual Path):**
 ```json
 {
-  "name": "hexstrike-ai",
-  "transport": "stdio",
-  "enabled": true,
-  "command": "python3",
-  "args": [
-    "/home/kali/hexstrike-ai/hexstrike_mcp.py",
-    "--server",
-    "http://localhost:8888"
-  ]
+  "mcpServers": {
+    "hexstrike-ai": {
+      "transport": "stdio",
+      "enabled": true,
+      "command": "python3",
+      "args": [
+        "/home/kali/Desktop/hexstrike-ai/hexstrike_mcp.py",
+        "--server",
+        "http://localhost:8888"
+      ]
+    }
+  }
 }
 ```
 
